@@ -5,17 +5,15 @@ function assert(success, message) {
     }
 }
 
-assert.equal = function(actual, expected, message){
 
-    assert.equal = function(actual, expected, message) {
-        message = (message || '') + 'expected ' + expected + 
+assert.equal = function(actual, expected, message) {
+    message = (message || '') + 'expected ' + expected + 
         
         'but was' + actual; 
     
         // eslint-disable-next-line eqeqeq
-        assert(actual == expected);
+    assert(actual == expected);
 
-    };
 };
 
 //change to tru assert and assert equal test
