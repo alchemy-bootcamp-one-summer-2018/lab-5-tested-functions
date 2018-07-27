@@ -24,8 +24,8 @@ function calculate(operator) {
     var operation = calc[operator];
     var result = operation(x, y);
 
-    var symbol = symbols[operator];
-    
+    var symbols = symbols[operator];
+
     dom.operator.innerText = operator;
     dom.result.innerText = result;
 
