@@ -1,4 +1,4 @@
-function passingTest () {
+function passingTest() {
 
 }
 
@@ -16,10 +16,10 @@ function failingTest() {
 }
 
 try {
-    passingTest();
-    console.log('Test PASSED');
+    failingTest();
+    console.log('Test FAILED');
 }
 
 catch(err) {
-    console.log('Test FAILED', err.message);
+    console.log('Test PASSED', err.message);
 }
