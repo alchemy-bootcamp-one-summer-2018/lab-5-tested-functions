@@ -4,7 +4,7 @@
 var dom = {
     x: document.getElementById('x'),
     y: document.getElementById('y'),
-    operate: document.getElementById('operator'),
+    operator: document.getElementById('operator'),
     result: document.getElementById('result')
 };
 
@@ -18,5 +18,5 @@ function calculate(operator) {
 
     dom.operator.innerText = operator;
     dom.result.innerText = result;
-    
+
 }
