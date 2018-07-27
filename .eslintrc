@@ -6,6 +6,9 @@
         "impliedStrict": true
       }
     },
+    "plugins": [
+      "html"
+    ],
     "env": {
       "browser": true,
       "es6": true
@@ -22,6 +25,7 @@
         {
             "ignoreEOLComments": true
         }
+
       ],
       "new-cap": "error",
       "no-redeclare": [
@@ -54,5 +58,6 @@
       ],
       "array-bracket-spacing": "error"
     }
+   
   }
   
